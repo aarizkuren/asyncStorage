@@ -6,6 +6,9 @@ Asynchronous version of the localStorage API, backed by * an IndexedDB database.
 This file defines an asynchronous version of the localStorage API, backed by an IndexedDB database. It creates a global
 asyncStorage object that has methods like the localStorage object.
 
+You can get the original version from: 
+> [Mozillas Gaia project](https://github.com/mozilla-b2g/gaia/blob/master/shared/js/async_storage.js)
+
 Usage
 ==========
 
@@ -44,3 +47,8 @@ may not include DOM elements, but they may include things like Blobs and typed a
 
 Testing
 ====
+To test the code, run
+
+<code bash>
+make test
+</code>
