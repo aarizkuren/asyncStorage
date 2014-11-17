@@ -1,0 +1,11 @@
+{
+    "name": "AsyncStorage",
+    "version": "0.1.0",
+    "main": "src/async_storage.js",
+    "ignore": [
+        ".gitignore",
+        "Makefile",
+        "package.json",
+        "test/"
+    ]
+}
