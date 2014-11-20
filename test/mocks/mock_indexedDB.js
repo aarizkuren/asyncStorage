@@ -2,7 +2,7 @@
 /* global sinon */
 /* exported MockIndexedDB */
 
-function MockIndexedDB() {
+global.MockIndexedDB = function () {
   var dbs = [];
   var deletedDbs = [];
   this.options = {};

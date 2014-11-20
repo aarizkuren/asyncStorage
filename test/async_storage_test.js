@@ -1,8 +1,9 @@
-require('../src/async_storage.js');
+require('../src/async_storage_old.js');
 var assert = require('chai').assert;
-var indexedDB = require('./mocks/mock_indexedDB.js');
+require('./mocks/mock_indexedDB.js');
 
 suite('asyncStorage', function () {
+
     test('API', function () {
         assert.typeOf(asyncStorage.length, 'function');
         assert.typeOf(asyncStorage.key, 'function');
